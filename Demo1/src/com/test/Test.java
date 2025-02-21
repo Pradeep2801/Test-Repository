@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Test {
-	public static void main(String[] args) {
+	public static void main(String[] args) {   
 //		String obj = "_org := root.organisation.add(Organisation, id := '101', name := 'Pradeep organization', description := 'Description') _org.add(Scorecard, id := '102', name := 'Scorecard_pradeep')";
 //		String obj = "_org := root.organisation.add(Organisation, id := '102', name := 'Org A')_org1 := _org.add(Organisation, id := '103', name := 'Org B')_org1.add(Organisation, id := '106', name := 'OrgnB1')_org1.add(Organisation, id := '107', name := 'Org B2') _org.add(Organisation, id := '104', name := 'Org C')";
 		String obj = "_sco := o.EXE.add(Scorecard, id := '464', name := 'Individual Awards', description := '      Internal', showTitleBar := false, showToolMenu := false, showTabs := false)"
